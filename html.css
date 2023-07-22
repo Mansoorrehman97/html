@@ -1,0 +1,26 @@
+/* .myfirstid{
+    color: rgb(102, 0, 255);
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.mybg{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    background-image: url(now.png);
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+
+}
+.img{
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    background-image: url(picforhtml.jfif);
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+
+}
+
