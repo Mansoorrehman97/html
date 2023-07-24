@@ -1,0 +1,15 @@
+.kit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:270px ;
+}
+.lion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.munsif{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+}

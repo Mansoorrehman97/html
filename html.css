@@ -1,26 +1,68 @@
 /* .myfirstid{
     color: rgb(102, 0, 255);
-} */
-*{
+ /* }*/
+/* { 
     margin: 0;
     padding: 0;
-}
-.mybg{
+} */
+/* .mybg{
     width: 100%;
     height: 100vh;
-    /* background-color: yellow; */
+    background-color: rgb(0, 0, 0); 
     background-image: url(now.png);
     background-size: 100% 100%; 
     background-attachment: fixed;
 
-}
-.img{
+} */
+/* .img{
     width: 100%;
     height: 100vh;
-    /* background-color: yellow; */
+    background-color: yellow;
     background-image: url(picforhtml.jfif);
     background-size: 100% 100%; 
     background-attachment: fixed;
 
+ } 
+#text{
+    font-family: 'Notable', sans-serif;
+    color: blue;
+    font-variant: small-caps;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 900;
+
+} */
+
+/* #textcss{
+    color: gray;
+    letter-spacing: 3px;
+    word-spacing: 9px;
+    direction: ltr;   
+    text-indent: 45px;  make the spaces before first word
+    text-align: center;
+    text-transform: uppercase;
+} */
+/* a:link{
+    color: brown;
 }
 
+a:visited{
+    color: green;
+}
+a:hover{
+    color: rgb(50, 205, 159);
+}
+a:active{
+    color: rgb(255, 94, 0);
+} */
+
+.border{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    /* border-width: 5px;
+    border-color: black;
+    border-style: dashed; */
+    border: 10px rgb(0, 0, 0) solid;
+    border-radius: 50px;
+}

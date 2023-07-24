@@ -1,0 +1,89 @@
+
+.lion{
+    font-size: 20px;
+    margin-left: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+
+}
+h2{
+    font-size: 11px;
+    margin-top: -32px;
+    margin-left: 430px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 20px;
+}
+.op{
+    display: flex;
+    background-color: rgb(11, 201, 39);
+    text-align: center;
+    height: 30px;
+    border:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.loops{
+    margin-left: 450px;
+    font-size: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    margin-top: 50px;
+    
+}
+h3{
+    margin-left: 450px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -8px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+}
+.top{
+    margin-left: 450PX;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(205, 204, 204);
+    text-transform: capitalize;
+    margin-top: -25px;
+}
+.iron{
+    display: flex;
+    justify-content:start;
+    margin-left: 900px;
+    height: 50px;px;
+    margin-top: -275px;
+   
+}
+.rop{
+    margin-left: 990px;
+    margin-top: -35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.uio{
+    position: absolute;
+    background-color: rgb(42, 87, 232);
+    color:white;
+    border-radius: 25px;
+    
+    font-size: 10px;
+   
+    padding:7px;
+    margin-left: 1050px;
+    margin-top: 17px;
+    width: 60px;
+    text-transform: capitalize;
+    
+
+}
+.ronaldo{
+    margin-top: 230px;
+    margin-left: 450px;
+    width: 400px;
+    
+}
