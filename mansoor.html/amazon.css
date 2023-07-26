@@ -5,11 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:0 0 18px;
+    margin:0 0 28px;
 }
 .one{
     position: fixed;
-    margin-top: 30px;
+    margin-top:40px;
     width: 102px;
 }
 .border{
@@ -33,6 +33,7 @@
    
 }
 .formBox{
+  /* font-size: 13px; */
     position: relative;
     display: block;
     border-radius: 4px;
@@ -41,14 +42,17 @@
     border-radius: 8px;
     height: 30vh;
     width:20vw;
-    padding:40px 26px;
+    padding-right: 66px;
+    padding-left: 23px;
+    padding-top: 45px;
+    padding-bottom: 50px;
 }
 .signin{
     position: fixed;
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
-    padding: 0 0 8px;
+    padding: 0px 4px 8px;
     margin-top: -30px;
 }
 .messsage{
@@ -56,29 +60,33 @@
     display: inline;
     font-size: small;
     margin: 0;
-    padding-top: 8px;
+    padding-top: 20px;
     padding-left: 2px;
     padding-bottom: 2px;
     font-weight: 600;
 }
 .input{
     position: absolute;
-    padding: 3px 1px;
-    /* height: 31px; */
-    width: 250px;
-    top: 35px;
+    padding: 3px 3px;
+    height: 20px;
+    width: 280px;
+    top: 40px;
 }
-button {
+.bttn {
         position: absolute;
         border-radius: 8px;
         background-color: #ffd363;
         border: 0;
         color: black;
-        padding: 5px 105px;
+        padding: 5px 113px;
         text-align: center;
-        font-size: 70%;
+        font-size: 100%;
         margin: 0;
-        margin-top: 70px;
+        margin-top: 80px;
+        cursor: pointer;
+    }
+    .bttn:hover{
+      background-color: #9d8446;
     }
     /* .a-button {
         position: fixed;
@@ -95,12 +103,20 @@ button {
         vertical-align: middle;
         margin-top: 60px;
     } */
-    h5{
+    h6{
        position: fixed;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-top: 100px;
+        margin-top: 130px;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 13px;
+    }
+    a{
+      color: #0066c0;
+      text-decoration: none;
+      font-size: smaller;
+    }
+    a:hover{
+      text-decoration: underline;
     }
     #by{
         font-size: 2px;
@@ -119,32 +135,90 @@ button {
       }
       
       /* Style the horizontal line */
-      .horizontal-line {
-        width: 45%;
-        border-top: 1px solid gray; /* You can adjust the thickness and color as needed */
-      }
-      
-      /* Style the centered text */
-      .centered-text {
-        position: absolute;
-        background-color: white; /* You can adjust the background color as needed */
-        padding: 0 5px; /* Adjust padding as needed */
-      }
-      hr {
-        border: 1px solid #ddd;
-        margin: 20px 0;
-      }
-      
-      p {
-        text-align: center;
-      }
-      
-      a {
-        color: #0066c0;
-      }
-      .a{
-        margin-top: 180px;
-      }
-      .border1{
-        border-bottom: 8px #8d9096;
-      }
+.line p{
+  font-size: 12px;
+  columns: #767676;
+  position: relative;
+  font-weight: 400px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 0 8px 0 7px ;
+}
+.line::before,.line::after{
+  content: "";
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  width: 120px;
+  border: 1px solid #e7e7e7;
+}
+
+.line{
+  margin-left: 450px;
+  margin-top: -20px;
+}
+.a{
+  margin-top: 200px;
+  color: #0066c0;
+}
+.btn{
+  /* display: block; */
+  /* align-self: center; */
+  margin-bottom: 30px;
+  margin-left: 480px;
+  color: rgb(249, 249, 249);
+}
+#btn{
+  width: 40%;
+  background-color: transparent;
+  padding: 0 10px 0 19px;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 26px;
+  border: 1px solid;
+  border-color: #cfc9c9;
+  text-align: center;
+  cursor: pointer;
+}
+#btn:hover{
+  background-color: #d5d3d3;
+}
+.links{
+  margin-bottom: 20px;
+  /* margin-left: 475px; */
+  padding: 10px 3px;
+  text-decoration: nones;
+  color: #0066c0;
+  text-align: center;
+  font-size: small;
+}
+.links a{
+  margin-top: 20px;
+  font-size: smaller;
+}
+.links a:hover{
+  color: #0066c0;
+  text-decoration: underline;
+}
+.solid{
+  text-align: center;
+  background-color: #ddd;
+  border: 1;
+  border-left: #ddd;
+  display: block;
+width: 70%;
+height: 2px;
+background: linear-gradient(to right,#fff,rgba(255,255,255,0),#fff);
+}
+#par{
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  padding: 3px;
+  margin-top: -23px;
+}
+.lastt{
+  margin-bottom: 4px;
+  padding: 0;
+
+}

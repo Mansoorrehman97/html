@@ -305,11 +305,18 @@ color: brown;
 } */
 
 
-/* .container{
+/*.container{
     display: flex;
     flex-direction: ;
     justify-content: flex-start;
-}
+    border: 10px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 2em;
+    row-gap: 2em;
+
+ }
 .box{
     width: 150px;
     height: 150px;
@@ -319,9 +326,12 @@ color: brown;
 }
 #box1{
     background-color: brown;
+    align-self: center;
+    order: -1;
 }
 #box2{
     background-color: yellow;
+    order: 1;
 }
 #box3{
     background-color: green;
@@ -329,3 +339,33 @@ color: brown;
 #box4{
     background-color: blue;
 } */
+/* body{
+    margin: 0;
+}
+.box{
+    width: 210px;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 6em;
+    transform: translate(250%,80%) rotateZ(45deg) scale(0.5);
+}
+#box1{
+
+    background-color: greenyellow; */
+
+    /* transform: translateX(250%); */
+    /* transform: translateY(250%); */
+    /* transform: translate(250%, 150%) rotateZ(45deg) skewX(45deg); */
+    /* transform: rotatey(180deg); */
+    /* transform: rotateZ(45deg); */
+    /* transform: skew(45deg,); */
+
+/* }
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: crimson;
+} */
+
